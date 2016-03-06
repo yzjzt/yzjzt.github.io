@@ -1,13 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh">
 <head>
     <meta charset="utf-8">
     
     <title>Time will prove all | yzjzt</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    
-        <meta name="keywords" content="MS,WP" />
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="前几天TheVerge的Tom Warren写了那篇Windows Phone已死的文章让我感触很深。前段时间腾讯宣布停止开发WP平台，进入维护期。微软的生态圈真的不行吗？桌面平台当然不是的，毕竟高达90以上的占有率摆在那里。UWP APP确实是一盘大棋，无论从理念上还是体验上。但是还是无可否认的是，移动端的生态真的不行，无论在国内还是国外。为什么我会追随WP追随MS？我欣赏微软的理念，佩服微软的">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Time will prove all">
@@ -26,111 +23,193 @@
     
 
     <link rel="stylesheet" href="/vendor/font-awesome/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="/vendor/titillium-web/styles.css" type="text/css">
+    <link rel="stylesheet" href="/vendor/open-sans/styles.css" type="text/css">
     <link rel="stylesheet" href="/vendor/source-code-pro/styles.css" type="text/css">
 
     <link rel="stylesheet" href="/css/style.css" type="text/css">
 
-    <script src="/vendor/jquery/2.0.3/jquery.min.js" type="text/javascript"></script>
+    <script src="/vendor/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
     
     
         <link rel="stylesheet" href="/vendor/fancybox/jquery.fancybox.css" type="text/css">
     
     
-        <link rel="stylesheet" href="/vendor/scrollLoading/style.css" type="text/css">
-    
     
     
 
 </head>
-
 <body>
-    <div id="wrap">
+    <div id="container">
         <header id="header">
-    <div id="header-outer" class="outer">
-        <div class="container">
-            <div class="container-inner">
-                <div id="header-title">
-                    <h1 class="logo-wrap">
-                        <a href="/" class="logo"></a>
-                    </h1>
-                    
-                </div>
-                <div id="header-inner" class="nav-container">
-                    <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
-                    <div class="nav-container-inner">
-                        <ul id="main-nav">
-                            
-                                <li class="main-nav-list-item" >
-                                    <a class="main-nav-list-link" href="/hexo-theme-hueman/">主页</a>
-                                </li>
-                            
-                                        <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Music/">Music</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Think/">Think</a></li></ul>
-                                    
-                                <li class="main-nav-list-item" >
-                                    <a class="main-nav-list-link" href="/hexo-theme-hueman/about/index.html">关于</a>
-                                </li>
-                            
-                        </ul>
-                        <nav id="sub-nav">
-                            <div id="search-form-wrap">
+    <div id="header-main" class="header-inner">
+        <div class="outer">
+            <a href="/" id="logo">
+                <i class="logo"></i>
+                <span class="site-title">yzjzt</span>
+            </a>
+            <nav id="main-nav">
+                
+                    <a class="main-nav-link" href="/.">Home</a>
+                
+                    <a class="main-nav-link" href="/archives">Archives</a>
+                
+                    <a class="main-nav-link" href="/categories">Categories</a>
+                
+                    <a class="main-nav-link" href="/tags">Tags</a>
+                
+                    <a class="main-nav-link" href="/about">About</a>
+                
+            </nav>
+            
+                
+                <nav id="sub-nav">
+                    <div class="profile" id="profile-nav">
+                        <a id="profile-anchor" href="javascript:;">
+                            <img class="avatar" src="/css/images/avatar.png" />
+                            <i class="fa fa-caret-down"></i>
+                        </a>
+                    </div>
+                </nav>
+            
+            <div id="search-form-wrap">
 
-    <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="搜索"><input type="hidden" name="sitesearch" value="http://yzjzt.xyz"></form>
+    <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="搜索"><button type="submit" class="search-form-submit"> </button><input type="hidden" name="sitesearch" value="http://yzjzt.xyz"></form>
 
 </div>
-                        </nav>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
+    <div id="main-nav-mobile" class="header-sub header-inner">
+        <table class="menu outer">
+            <tr>
+                
+                    <td><a class="main-nav-link" href="/.">Home</a></td>
+                
+                    <td><a class="main-nav-link" href="/archives">Archives</a></td>
+                
+                    <td><a class="main-nav-link" href="/categories">Categories</a></td>
+                
+                    <td><a class="main-nav-link" href="/tags">Tags</a></td>
+                
+                    <td><a class="main-nav-link" href="/about">About</a></td>
+                
+                <td>
+                    
+    <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="搜索"><input type="hidden" name="sitesearch" value="http://yzjzt.xyz"></form>
+
+                </td>
+            </tr>
+        </table>
+    </div>
 </header>
-        <div class="container">
-            <div class="main-body container-inner">
-                <div class="main-body-inner">
-                    <section id="main">
-                        <div class="main-body-header">
-    <h1 class="header">
-    
-    <a class="page-title-link" href="/categories/Think/">Think</a>
-    </h1>
-</div>
-                        <div class="main-body-content">
-                            <article id="post-WP" class="article article-single article-type-post" itemscope itemprop="blogPost">
+
+        <div class="outer">
+            
+                
+<aside id="profile">
+    <div class="inner profile-inner">
+        <div class="base-info profile-block">
+            <img id="avatar" src="/css/images/avatar.png" />
+            <h2 id="name">PPOffice</h2>
+            <h3 id="title">Web Developer &amp; Designer</h3>
+            <span id="location"><i class="fa fa-map-marker"></i>Harbin, China</span>
+            <a id="follow" target="_blank" href="https://github.com/ppoffice/">关注我</a>
+        </div>
+        <div class="article-info profile-block">
+            <div class="article-info-block">
+                3
+                <span>文章</span>
+            </div>
+            <div class="article-info-block">
+                2
+                <span>标签</span>
+            </div>
+        </div>
+        
+        <div class="profile-block social-links">
+            <table>
+                <tr>
+                    
+                    <td><a href="http://github.com/ppoffice/hexo-theme-icarus" target="_blank" title="github"><i class="fa fa-github"></i></a></td>
+                    
+                    <td><a href="/" target="_blank" title="twitter"><i class="fa fa-twitter"></i></a></td>
+                    
+                    <td><a href="/" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></td>
+                    
+                    <td><a href="/" target="_blank" title="dribbble"><i class="fa fa-dribbble"></i></a></td>
+                    
+                    <td><a href="/" target="_blank" title="rss"><i class="fa fa-rss"></i></a></td>
+                    
+                </tr>
+            </table>
+        </div>
+        
+    </div>
+</aside>
+
+            
+            <section id="main"><article id="post-WP" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
+        
+        
         
             <header class="article-header">
                 
     
         <h1 class="article-title" itemprop="name">
-        Time will prove all
+            Time will prove all
         </h1>
     
 
+                <div class="article-meta">
+                    
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2016/02/02/WP/">
+            <time datetime="2016-02-02T11:24:13.000Z" itemprop="datePublished">2016-02-02</time>
+        </a>
+    </div>
+
+
+                    
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/Think/">Think</a>
+    </div>
+
+                    
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/MS/">MS</a>, <a class="tag-link" href="/tags/WP/">WP</a>
+    </div>
+
+                </div>
             </header>
         
-        <div class="article-subtitle">
-            <a href="/2016/02/02/WP/" class="article-date">
-    <time datetime="2016-02-02T11:24:13.000Z" itemprop="datePublished">2016-02-02</time>
-</a>
-            
-    <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/MS/">MS</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/WP/">WP</a></li></ul>
-
-        </div>
         <div class="article-entry" itemprop="articleBody">
+        
+            
             <p>前几天TheVerge的Tom Warren写了那篇Windows Phone已死的文章让我感触很深。前段时间腾讯宣布停止开发WP平台，进入维护期。<br>微软的生态圈真的不行吗？桌面平台当然不是的，毕竟高达90以上的占有率摆在那里。UWP APP确实是一盘大棋，无论从理念上还是体验上。但是还是无可否认的是，移动端的生态真的不行，无论在国内还是国外。<br>为什么我会追随WP追随MS？我欣赏微软的理念，佩服微软的技术，以及Lumia不跟随的品牌特质。Modern UI的风格，WP理念的领先……<br>微软确实做过很多sb的事，不断的推到重来，烂成屎的营销策略……这些伤了无数开发者的心，腾讯的暂时离开我可以理解，那就像一个母亲对孩子的无奈。<br>科技行业总需要有开拓者去不断的发现新的天地。微软做过很多失败的产品，但更多的呢？Win和Office早已是同类产品的代名词，Azure云早已影响企业的管理方式……Win RT很失败，但有它的试水我们才能看到今天的Win10,还有前段时间震惊世界的Surface Pro 4和Surface Book；不断的探（zá）索（qián）才成就了Xbox今天终有一席之地……微软从不缺技术，它缺心机，缺营销。<br><img src="http://img.ithome.com/newsuploadfiles/2016/1/20160131_070648_43.jpg" alt=""><br>这张照片是2010年9月，微软Windows Phone 7完成开发的时候，WP7团队为iPhone做的“葬礼”，现在五年多了，WM没有埋葬iPhone，微软还乖乖的给iOS做各种各样的应用，甚至有人戏谑三屏一云的移动端是iOS……<br>或许微软都在觉得是不是自己的理念是不是真的是错的，其实并没有。WP在一些错误上，一直在重蹈覆辙。就像一个很聪明的学生，考试却考不好……好吧我也只想得到这个比喻。<br>Windows10的大一统我觉得是正确的方向。开发一次运行多个平台的UWP真的很棒（我自己写过几个简单的UWP APP，因为比较简单就不献丑了），前段时间有幸和一个UWP开发者聊了几句，他已经开发了十多个UWP应用，他和我说做了那么多，得不到回报，很伤心。前段时间他写了个百度外卖，结果没多少下载量，他说那可能是他发布的最后一个应用……WP7一路走来，有很多优秀开发者，他们得不到认可，得不到回报……他们当中有些还坚守着WP，有些已经转向其他平台……<br>MS要撑住啊。希望2016看到Windows10的爆发。<br>昨天我把我的1520从Win 10 Mobile刷回了WP8，WP8真的很精致，诺基亚出色的工业设计和微软的软件服务，是天生的搭配，但是他们为什么会输，为什么……对了诺记今年据说要发布新的智能机，我觉得啊，诺记还是不要回来了，以免沾上浮躁的风气，就让1110的亿万销量成为回忆，就让Meego成为极客饭后谈资，就让1020成为不败神话……<br>对于我，我只是个MS的粉丝，我的话对MS的发展没有任何影响。我喜欢WP因为它的不跟随，我喜欢Windows10因为它的出色体验……<br>依稀记得我用的第一个Win10预览版版本号是9926，Win10 Mobile版本号是10166……回想过去一年，Win10和我的境遇何其相似……不被人认可，知道今天，当我们看到企业市场的赞誉，当我们看到现在的Win10份额超过XP仅次于Win7排名第二……微软憋了很久，放出了大招，证明了自己。<br>2016，我会坚守WP，关注WP生态，与WP同行。这是一篇长文，数了一下，1483字。思路有点乱毕竟我语文就那样。但这些说的是我的心里话，没有太多的洗地，没有太多的喷，是一个软粉的自白。<br>WP8.1的1520镇楼。<br><img src="http://i4.tietuku.com/c7da168a5a7d937e.jpg" alt=""></p>
 <p>最后一句话:Time will prove all.</p>
 <p>wsh<br>16.2.2</p>
 
+        
         </div>
         <footer class="article-footer">
-            
+            <div class="share-container">
 
 
 
-    <a data-url="http://yzjzt.xyz/2016/02/02/WP/" data-id="cil5yjh6n0003rwtzftz0jycw" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+</div>
+
+    <a data-url="http://yzjzt.xyz/2016/02/02/WP/" data-id="cilfxmq5f000484c5h0v9e34o" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
 <script>
     (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
         $('body').on('click', function() {
             $('.article-share-box.on').removeClass('on');
         }).on('click', '.article-share-link', function(e) {
@@ -155,10 +234,10 @@
                     '<div id="' + id + '" class="article-share-box">',
                         '<input class="article-share-input" value="' + url + '">',
                         '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
                         '</div>',
                     '</div>'
                 ].join('');
@@ -188,10 +267,35 @@
     })(jQuery);
 </script>
 
+            
+    
+        <a href="http://yzjzt.xyz/2016/02/02/WP/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="http://yzjzt.xyz/2016/02/02/WP/">评论</a>
+    
+
         </footer>
     </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="/2016/02/27/post-1/" id="article-nav-newer" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">上一篇</strong>
+            <div class="article-nav-title">
+                
+                    post
+                
+            </div>
+        </a>
+    
+    
+</nav>
+
+
+    
 </article>
 
+
+    
     <section id="comments">
     
         
@@ -202,86 +306,11 @@
     
     </section>
 
-                        </div>
-                    </section>
-                    <aside id="sidebar">
-    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
-    <div class="sidebar-top">
-        <p>关注我 :</p>
-        <ul class="social-links">
+</section>
             
-                
-                <li>
-                    <a class="social-tooltip" title="twitter" href="/" target="_blank">
-                        <i class="icon fa fa-twitter"></i>
-                    </a>
-                </li>
-                
-            
-                
-                <li>
-                    <a class="social-tooltip" title="facebook" href="/" target="_blank">
-                        <i class="icon fa fa-facebook"></i>
-                    </a>
-                </li>
-                
-            
-                
-                <li>
-                    <a class="social-tooltip" title="google-plus" href="/" target="_blank">
-                        <i class="icon fa fa-google-plus"></i>
-                    </a>
-                </li>
-                
-            
-                
-                <li>
-                    <a class="social-tooltip" title="github" href="https://github.com/ppoffice/hexo-theme-hueman" target="_blank">
-                        <i class="icon fa fa-github"></i>
-                    </a>
-                </li>
-                
-            
-                
-                <li>
-                    <a class="social-tooltip" title="weibo" href="/" target="_blank">
-                        <i class="icon fa fa-weibo"></i>
-                    </a>
-                </li>
-                
-            
-                
-                <li>
-                    <a class="social-tooltip" title="rss" href="/" target="_blank">
-                        <i class="icon fa fa-rss"></i>
-                    </a>
-                </li>
-                
-            
-        </ul>
-    </div>
+                <aside id="sidebar">
     
         
-<nav id="article-nav">
-    
-        <a href="/2016/02/27/post-1/" id="article-nav-newer" class="article-nav-link-wrap">
-        <strong class="article-nav-caption">下一篇</strong>
-        <p class="article-nav-title">
-        
-            post
-        
-        </p>
-        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
-    </a>
-    
-    
-</nav>
-
-    
-    <div class="widgets-container">
-        
-            
-                
     <div class="widget-wrap">
         <h3 class="widget-title">最新文章</h3>
         <div class="widget">
@@ -290,11 +319,28 @@
                     <li>
                         
                         <div class="item-thumbnail">
-                            <a href="/2016/02/27/post-1/" class="thumbnail">
+                            <a href="/2016/03/05/hello-world/" class="thumbnail">
     
     
         <span class="thumbnail-image thumbnail-none"></span>
     
+</a>
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2016/03/05/hello-world/" class="title">Hello World</a></p>
+                            <p class="item-date"><time datetime="2016-03-05T14:42:14.088Z" itemprop="datePublished">2016-03-05</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2016/02/27/post-1/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
     
 </a>
                         </div>
@@ -314,7 +360,6 @@
     
         <span style="background-image:url(http://img.ithome.com/newsuploadfiles/2016/1/20160131_070648_43.jpg)" alt="Time will prove all" class="thumbnail-image"></span>
     
-    
 </a>
                         </div>
                         
@@ -329,48 +374,44 @@
         </div>
     </div>
 
-            
-                
-    <div class="widget-wrap widget-list">
+    
+        
+    <div class="widget-wrap">
         <h3 class="widget-title">分类</h3>
         <div class="widget">
             <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Music/">Music</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Think/">Think</a><span class="category-list-count">1</span></li></ul>
         </div>
     </div>
 
-
-            
-                
-    <div class="widget-wrap widget-list">
+    
+        
+    <div class="widget-wrap">
         <h3 class="widget-title">归档</h3>
         <div class="widget">
-            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">二月 2016</a><span class="archive-list-count">2</span></li></ul>
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">三月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">二月 2016</a><span class="archive-list-count">2</span></li></ul>
         </div>
     </div>
 
-
-            
-                
-    <div class="widget-wrap widget-list">
+    
+        
+    <div class="widget-wrap">
         <h3 class="widget-title">标签</h3>
         <div class="widget">
             <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/MS/">MS</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/WP/">WP</a><span class="tag-list-count">1</span></li></ul>
         </div>
     </div>
 
-
-            
-                
-    <div class="widget-wrap widget-float">
+    
+        
+    <div class="widget-wrap">
         <h3 class="widget-title">标签云</h3>
         <div class="widget tagcloud">
             <a href="/tags/MS/" style="font-size: 10px;">MS</a> <a href="/tags/WP/" style="font-size: 10px;">WP</a>
         </div>
     </div>
 
-
-            
-                
+    
+        
     <div class="widget-wrap widget-list">
         <h3 class="widget-title">链接</h3>
         <div class="widget">
@@ -385,31 +426,23 @@
     </div>
 
 
-            
-        
-    </div>
+    
+    <div id="toTop" class="fa fa-chevron-up"></div>
 </aside>
-                </div>
-            </div>
+            
         </div>
         <footer id="footer">
-    <div class="container">
-        <div class="container-inner">
-            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
-            <div class="credit">
-                <h1 class="logo-wrap">
-                    <a href="/" class="logo"></a>
-                </h1>
-                <p>&copy; 2016 yzjzt</p>
-                <p>Powered by <a href="//hexo.io/" target="_blank">Hexo</a>. Theme by <a href="//github.com/ppoffice" target="_blank">PPOffice</a></p>
-            </div>
+    <div class="outer">
+        <div id="footer-info" class="inner">
+            &copy; 2016 yzjzt<br>
+            Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Theme by <a href="http://github.com/ppoffice">PPOffice</a>
         </div>
     </div>
 </footer>
         
     
     <script>
-    var disqus_shortname = 'hexo-theme-hueman';
+    var disqus_shortname = 'hexo-theme-icarus';
     
     
     var disqus_url = 'http://yzjzt.xyz/2016/02/02/WP/';
@@ -427,11 +460,6 @@
 
     
         <script src="/vendor/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
-    
-
-    
-        <script src="/vendor/scrollLoading/jquery.scrollLoading.js" type="text/javascript"></script>
-        <script src="/vendor/scrollLoading/main.js" type="text/javascript"></script>
     
 
 
